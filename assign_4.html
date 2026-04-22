@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="#" method="post">
+
+        <!-- First Name -->
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required><br><br>
+
+        <!-- Last Name -->
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required><br><br>
+
+        <!-- Age -->
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="10" max="99" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required><br><br>
+
+        <!-- Phone -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="+234 800 000 0000"><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" minlength="8" required><br><br>
+
+        <!-- Gender -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="prefer" name="gender" value="prefer-not">
+        <label for="prefer">Prefer not to say</label><br><br>
+
+        <!-- Courses -->
+        <p>Courses Interested In:</p>
+        <input type="checkbox" id="html" name="courses" value="html">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="courses" value="css">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="js" name="courses" value="javascript">
+        <label for="js">JavaScript</label><br>
+
+        <input type="checkbox" id="python" name="courses" value="python">
+        <label for="python">Python</label><br><br>
+
+        <!-- Buttons -->
+        <button type="submit">Register Now</button>
+        <button type="reset">Clear Form</button>
+
+    </form>
+
+    <!--  
+    Radio buttons allow only one selection at a time, 
+    while checkboxes allow multiple selections.
+    -->
+
+</body>
+</html>
